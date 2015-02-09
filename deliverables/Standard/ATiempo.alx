@@ -1,0 +1,31 @@
+<loader version="1.0">
+	<application id="ATiempo">
+		<name >
+			ATiempo
+		</name>
+		<description >
+			Pronostico del tiempo de Cuba para BlackBerry
+		</description>
+		<version >
+			1.0.36
+		</version>
+		<vendor >
+			Abel Espinosa
+		</vendor>
+		<copyright >
+			Copyright (c) 2014 Abel Espinosa
+		</copyright>
+		<fileset Java="1.55" _blackberryVersion="[5.0.0)">
+			<directory >
+				5.0.0
+			</directory>
+			<files >
+				ATiempo.cod
+
+			</files>
+
+		</fileset>
+
+	</application>
+
+</loader>

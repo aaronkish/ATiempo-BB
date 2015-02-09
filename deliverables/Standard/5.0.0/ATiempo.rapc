@@ -1,0 +1,13 @@
+MIDlet-Name: ATiempo
+MIDlet-Version: 1.0.36
+MIDlet-Vendor: Abel Espinosa
+MIDlet-Description: Pronostico del tiempo de Cuba para BlackBerry
+MIDlet-Jar-URL: ATiempo.jar
+MIDlet-Jar-Size: 0
+MicroEdition-Profile: MIDP-2.0
+MicroEdition-Configuration: CLDC-1.1
+MIDlet-1: ATiempo,img/iconUI.png,
+RIM-MIDlet-Icon-1-1: img/iconUI2.png,focused
+RIM-MIDlet-Icon-Count-1: 1
+RIM-MIDlet-Flags-1: 0
+

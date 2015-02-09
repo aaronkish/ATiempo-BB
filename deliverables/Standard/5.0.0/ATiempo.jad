@@ -1,0 +1,247 @@
+Manifest-Version: 1.0
+MIDlet-Jar-Size: 1323680
+RIM-COD-URL-76: ATiempo-76.cod
+RIM-COD-URL-75: ATiempo-75.cod
+RIM-COD-URL-74: ATiempo-74.cod
+RIM-COD-URL-73: ATiempo-73.cod
+MicroEdition-Configuration: CLDC-1.1
+RIM-COD-URL-72: ATiempo-72.cod
+RIM-COD-URL-71: ATiempo-71.cod
+RIM-COD-URL-70: ATiempo-70.cod
+MIDlet-Version: 1.0.36
+RIM-COD-Size-76: 63076
+RIM-COD-Size-75: 51612
+RIM-COD-Size: 73164
+RIM-COD-Size-74: 56884
+RIM-COD-URL-69: ATiempo-69.cod
+RIM-COD-Size-73: 51020
+RIM-COD-URL-68: ATiempo-68.cod
+RIM-COD-Size-72: 56876
+RIM-COD-URL-67: ATiempo-67.cod
+RIM-COD-Size-71: 52380
+RIM-COD-URL-66: ATiempo-66.cod
+RIM-COD-Size-70: 51104
+RIM-COD-URL-65: ATiempo-65.cod
+RIM-COD-URL-64: ATiempo-64.cod
+RIM-COD-URL-63: ATiempo-63.cod
+RIM-COD-URL-62: ATiempo-62.cod
+RIM-COD-URL-61: ATiempo-61.cod
+RIM-COD-URL-60: ATiempo-60.cod
+RIM-MIDlet-Flags-1: 0
+MIDlet-Name: ATiempo
+RIM-COD-Size-69: 51612
+RIM-COD-Size-68: 52372
+RIM-COD-Size-67: 51548
+RIM-COD-Size-66: 51056
+RIM-COD-Size-65: 52484
+RIM-COD-Size-64: 52428
+RIM-COD-URL-59: ATiempo-59.cod
+RIM-COD-Size-63: 50676
+RIM-COD-URL-58: ATiempo-58.cod
+RIM-COD-Size-62: 59128
+RIM-COD-URL-57: ATiempo-57.cod
+RIM-COD-Size-61: 51100
+RIM-COD-URL-56: ATiempo-56.cod
+RIM-COD-Size-60: 56884
+RIM-COD-URL-55: ATiempo-55.cod
+RIM-COD-URL-54: ATiempo-54.cod
+RIM-COD-URL-53: ATiempo-53.cod
+RIM-COD-URL-52: ATiempo-52.cod
+RIM-COD-URL-51: ATiempo-51.cod
+RIM-COD-URL-50: ATiempo-50.cod
+RIM-MIDlet-Icon-Count-1: 1
+RIM-COD-Size-59: 55568
+RIM-COD-Size-58: 57260
+RIM-COD-Size-57: 46588
+RIM-COD-Size-56: 38124
+RIM-COD-URL-9: ATiempo-9.cod
+RIM-COD-Size-55: 55188
+RIM-COD-URL-8: ATiempo-8.cod
+RIM-COD-Size-54: 42120
+RIM-COD-URL-49: ATiempo-49.cod
+RIM-COD-URL-7: ATiempo-7.cod
+RIM-COD-Size-53: 42112
+RIM-COD-URL-48: ATiempo-48.cod
+RIM-COD-URL-6: ATiempo-6.cod
+MicroEdition-Profile: MIDP-2.0
+RIM-COD-Size-52: 42116
+RIM-COD-URL-47: ATiempo-47.cod
+RIM-COD-URL-5: ATiempo-5.cod
+RIM-COD-Size-51: 60312
+RIM-COD-URL-46: ATiempo-46.cod
+RIM-COD-URL-4: ATiempo-4.cod
+RIM-COD-Size-50: 44404
+RIM-COD-URL-45: ATiempo-45.cod
+RIM-COD-URL-3: ATiempo-3.cod
+RIM-COD-URL-44: ATiempo-44.cod
+RIM-COD-URL-2: ATiempo-2.cod
+RIM-COD-URL-43: ATiempo-43.cod
+RIM-COD-URL-1: ATiempo-1.cod
+RIM-COD-URL-42: ATiempo-42.cod
+RIM-COD-URL-41: ATiempo-41.cod
+RIM-COD-Size-9: 62828
+RIM-COD-URL-40: ATiempo-40.cod
+RIM-COD-Size-8: 61196
+RIM-COD-Size-7: 50500
+RIM-COD-Size-6: 56684
+RIM-COD-Size-5: 57688
+RIM-COD-Size-4: 56692
+RIM-COD-Size-3: 55464
+RIM-COD-Size-2: 57012
+RIM-COD-Size-1: 55012
+RIM-COD-Size-49: 53784
+RIM-COD-Size-48: 39452
+RIM-COD-Size-47: 46940
+RIM-COD-Size-46: 39364
+RIM-COD-Size-45: 46604
+RIM-COD-Size-44: 38880
+RIM-COD-URL-39: ATiempo-39.cod
+RIM-COD-Size-43: 44224
+RIM-COD-URL-38: ATiempo-38.cod
+RIM-COD-Size-42: 44224
+RIM-COD-URL-37: ATiempo-37.cod
+RIM-COD-URL-36: ATiempo-36.cod
+RIM-COD-Size-41: 62820
+RIM-COD-URL-35: ATiempo-35.cod
+RIM-COD-Size-40: 44196
+RIM-COD-URL-34: ATiempo-34.cod
+RIM-COD-URL-33: ATiempo-33.cod
+RIM-COD-URL-32: ATiempo-32.cod
+RIM-COD-URL-31: ATiempo-31.cod
+RIM-COD-URL-30: ATiempo-30.cod
+RIM-COD-Module-Dependencies: net_rim_cldc,net_rim_os,net_rim_xml_org,net_rim_xml,net_rim_crypto_2
+MIDlet-Vendor: Abel Espinosa
+RIM-COD-Size-39: 44200
+RIM-COD-Size-38: 40000
+RIM-COD-Size-37: 39080
+RIM-COD-Size-36: 46620
+RIM-COD-Size-35: 38644
+RIM-COD-URL-29: ATiempo-29.cod
+RIM-COD-Size-34: 39444
+RIM-COD-URL-28: ATiempo-28.cod
+RIM-COD-Size-33: 45740
+RIM-COD-URL-27: ATiempo-27.cod
+RIM-COD-Size-32: 44480
+RIM-COD-URL-26: ATiempo-26.cod
+RIM-COD-Size-31: 45964
+RIM-COD-URL-25: ATiempo-25.cod
+RIM-COD-Size-30: 53420
+RIM-COD-URL-24: ATiempo-24.cod
+RIM-COD-URL-23: ATiempo-23.cod
+RIM-COD-URL-22: ATiempo-22.cod
+RIM-COD-URL-21: ATiempo-21.cod
+RIM-COD-URL-20: ATiempo-20.cod
+RIM-COD-SHA1-76: 6d 47 c4 42 e7 4a 91 24 81 b3 58 32 53 34 68 47 15 d8 21 3e
+RIM-COD-SHA1-75: b0 c5 9d 0d fd 07 49 ae 84 23 c7 ce 13 01 37 3c 3b 3f f2 68
+RIM-COD-SHA1-74: d8 dd 20 86 d1 24 89 3e ea 3a 97 49 fd 0f 16 17 5a ce e5 fa
+RIM-COD-SHA1-73: 68 83 a7 64 20 ff e5 92 96 6f 12 7d 2b 46 7e c9 19 b7 d1 51
+RIM-COD-URL: ATiempo.cod
+RIM-COD-SHA1-72: f8 4d 39 ed 77 fb df 68 73 e9 b5 3e bb 19 9f d0 c6 26 42 f3
+MIDlet-Description: Pronostico del tiempo de Cuba para BlackBerry
+RIM-COD-SHA1-71: 6a 4e 40 b0 71 ed c4 f8 1a af d5 04 ab ab 32 93 a0 5b 5b 2a
+RIM-COD-SHA1-70: d7 32 46 42 fa 20 6e b6 80 82 f1 64 01 d1 48 83 cb 47 a5 82
+RIM-COD-Module-Name: ATiempo
+RIM-COD-Size-29: 45300
+RIM-COD-Size-28: 45988
+RIM-MIDlet-Icon-1-1: img/iconUI2.png,focused
+RIM-COD-Size-27: 45992
+RIM-COD-Size-26: 60600
+RIM-COD-Size-25: 44956
+RIM-COD-URL-19: ATiempo-19.cod
+RIM-COD-Size-24: 54852
+RIM-COD-URL-18: ATiempo-18.cod
+RIM-COD-Size-23: 62132
+RIM-COD-URL-17: ATiempo-17.cod
+RIM-COD-Size-22: 58324
+RIM-COD-URL-16: ATiempo-16.cod
+RIM-COD-Size-21: 47680
+RIM-COD-URL-15: ATiempo-15.cod
+RIM-COD-Size-20: 60780
+RIM-COD-URL-14: ATiempo-14.cod
+RIM-COD-URL-13: ATiempo-13.cod
+RIM-COD-URL-12: ATiempo-12.cod
+RIM-COD-URL-11: ATiempo-11.cod
+RIM-COD-SHA1-69: bf 53 cd 68 75 12 2b 83 cd 23 e3 1b 04 da 3a 42 26 4b 47 3f
+RIM-COD-URL-10: ATiempo-10.cod
+RIM-COD-SHA1-68: 62 87 4e 95 dd 49 e0 b5 9d de 6f b9 14 36 7e 20 b5 09 f2 11
+RIM-COD-SHA1-67: 5b 63 77 0a 95 f7 59 3e cf 92 90 4e 4f 6e e8 13 7e b0 a7 43
+RIM-COD-SHA1-66: 1b 99 be 98 56 65 b3 83 0b 1d 27 2d 1e 99 ef 75 90 33 6e 12
+RIM-COD-SHA1-65: 08 1c af 84 f3 59 3a 72 6b f7 e1 28 78 79 f2 24 3f 5c f8 25
+RIM-COD-SHA1-64: 14 da 6f 2d 7a 10 85 c2 6f 51 a5 d1 68 15 fe c7 25 15 5f 6c
+RIM-COD-SHA1-63: d6 58 c6 bb 6e db e0 1e ca f2 a7 2d d8 c3 99 16 ea 45 60 41
+RIM-COD-SHA1-62: ca af 71 b7 12 d1 ef ab 51 9c bb 12 ab 85 a5 22 cc c2 14 c5
+RIM-COD-SHA1-61: c7 0d 9e 07 4f 2a 33 d2 da 10 4e 84 19 97 55 da 5a 57 20 b2
+RIM-COD-SHA1-60: f9 65 6f ef de 38 62 ab 66 8b 56 a7 54 9c 75 c8 c1 51 81 10
+RIM-COD-Size-19: 62828
+RIM-COD-Size-18: 57464
+RIM-COD-Size-17: 52612
+RIM-COD-Size-16: 52592
+RIM-COD-Size-15: 52596
+RIM-COD-Size-14: 48428
+RIM-COD-Size-13: 61188
+RIM-COD-Size-12: 53424
+RIM-COD-Size-11: 62812
+RIM-COD-Size-10: 55460
+RIM-COD-SHA1-59: d3 9a 97 a5 92 3d 84 80 86 95 12 04 fd 51 d3 54 57 c0 ce b4
+RIM-COD-SHA1-58: 78 21 b3 a6 4d 9d 91 eb f1 a7 a8 8e 91 a4 0b 0a 53 8a 12 38
+RIM-COD-SHA1-57: 21 b9 69 47 5f 84 21 97 02 57 9f 59 d7 c2 2f 0c 5d dc 1b f2
+RIM-COD-SHA1-56: 68 5e b4 52 2c 36 ce 23 c2 6c 28 98 0c 0f 40 69 bb fe 02 9a
+RIM-COD-SHA1-55: 7c d6 40 65 2e 88 96 32 e9 e7 af 37 cf a3 e2 36 68 82 f2 a9
+RIM-COD-SHA1-54: f6 d6 8b 26 78 69 f9 a4 74 ac 2f bc 5a 4b 49 71 8e 46 1d 07
+RIM-COD-SHA1-53: f7 de 68 46 5d 71 33 38 ab ca a3 ae bb 82 4a b5 32 d8 e2 62
+MIDlet-1: ATiempo,img/iconUI.png,
+RIM-COD-SHA1-52: 3d 9f 3e e1 c8 79 61 4b 6b 14 07 ef 38 a9 e9 81 ee ac 8a 9e
+RIM-COD-SHA1-51: d3 bb d8 19 4b 05 a2 49 af b7 0b 76 10 3b 7c 49 78 25 a0 4c
+RIM-COD-SHA1-50: 5d 7e 9b b5 c2 21 2b fb 53 25 97 e2 1e 40 ca 27 f8 60 28 b0
+RIM-COD-SHA1: dc 3c 87 7d 1c cf 67 92 3d 43 07 b3 16 c1 86 03 ea ab 11 bb
+RIM-COD-SHA1-49: 8d 35 87 89 9a fb ec 42 55 48 34 54 46 60 b4 35 81 6c 0a eb
+RIM-COD-SHA1-48: 22 45 d2 f4 67 a5 47 7f b5 d3 fa 38 aa 46 c8 a7 f4 14 f6 1a
+RIM-COD-SHA1-47: 5d f0 19 f5 ef 58 50 48 bf 0e a7 f5 ae 39 a1 46 41 4f bc ee
+RIM-COD-SHA1-46: 67 5d 5b 0b 3d 3d 69 71 a5 9b 8b f9 33 96 a0 4b 70 62 0c ef
+RIM-COD-SHA1-45: 1f fe f4 89 37 b9 d6 be 78 f0 f5 91 bc 41 7f 8c 20 f5 77 df
+RIM-COD-SHA1-44: 59 8b e2 5d b1 07 cc 12 76 a1 04 b3 39 ce 99 00 40 d0 2d 0f
+RIM-COD-SHA1-43: 82 34 51 35 29 ff 7c 8c 70 5a de 32 29 8c 41 be 2d 7f 09 34
+RIM-COD-SHA1-42: 21 9e 64 ef 8c 48 4b ca fd 72 eb 48 39 35 d9 2d d9 78 d9 06
+RIM-COD-SHA1-41: a0 a8 28 ac 41 56 e8 21 54 95 e1 97 72 ba c3 6e ac 91 80 08
+RIM-COD-SHA1-40: 82 7f 10 34 9d eb 68 b9 6f a9 bb 3a 76 83 9e 8c 5a 12 b0 49
+RIM-COD-SHA1-39: f7 06 a9 bc 17 93 b0 f8 e3 78 b2 a2 58 a0 6c 3d 1c 68 2b 14
+RIM-COD-SHA1-38: 2e 5e 7c ca 0b 29 7b 81 58 a1 4a 35 ca e5 5b 75 35 f8 8a b6
+RIM-COD-SHA1-37: 3e b7 1a 17 32 cf 0b 5b 84 ac 16 75 73 3f 00 7d ce a1 52 7a
+RIM-COD-SHA1-36: 65 85 3d 44 88 ef 1c 01 0d b0 17 96 4c 19 00 f1 41 89 ca 68
+MIDlet-Jar-URL: ATiempo.jar
+RIM-COD-SHA1-35: 47 d4 88 b9 8b 49 99 77 43 af 81 dc ce da 17 cc be 35 53 a7
+RIM-COD-SHA1-34: d6 2a 73 69 d8 27 80 55 d7 65 88 ed 42 67 3e a6 d8 df 78 20
+RIM-COD-SHA1-33: d0 80 16 43 14 99 2e 16 05 cf da bb c8 e2 08 93 1c de 87 9b
+RIM-COD-SHA1-32: bd fa cf 34 c5 9c f1 c3 cd 69 b4 56 07 29 4b e1 49 94 7a a9
+RIM-COD-SHA1-31: 1f 2b 3e 8c d9 8b 6e 6f 66 01 75 be 98 d2 f2 9b 9c 45 c7 2e
+RIM-COD-SHA1-30: 80 fe 79 34 1c d8 0a 1c 25 d0 97 18 42 91 67 8d 63 59 60 2f
+RIM-COD-SHA1-9: a7 64 97 2b ef 75 ab 0f 3f 3e d7 59 12 bb e6 06 e3 a7 0d 44
+RIM-COD-SHA1-8: 95 bf bd f5 aa 74 0f c4 9c dc 2b 9c 2f f4 d3 06 0d 4c ba 60
+RIM-COD-SHA1-7: 42 ed a8 03 ae e7 64 50 55 1e b2 97 af 5d c6 6d 19 62 68 03
+RIM-COD-SHA1-6: 0e df bf 49 2d 23 dc cb 5b c0 38 10 5f 6c 72 3c 29 9d d9 30
+RIM-COD-SHA1-5: 66 9d 6a a7 5f b8 cd a5 2e d2 8c 8f 19 4c e0 19 f2 99 4f 58
+RIM-COD-SHA1-4: c2 ad 02 5b b6 5e ec 77 14 c8 cc 10 d7 10 af 1f 8b d7 2c 7f
+RIM-COD-SHA1-3: 3e 16 0e 35 92 e3 66 98 b9 11 12 93 3b 31 48 c8 77 f2 07 59
+RIM-COD-SHA1-2: 1f 82 7c 94 8a c8 fd 1a ea 0e 5f 30 ad 29 ba 77 3a ff 1d 99
+RIM-COD-SHA1-1: e0 10 60 e5 8a e7 75 d5 71 5f a7 8a d5 cb ad 99 2f d8 aa 19
+RIM-COD-SHA1-29: d1 8e 87 de 18 b4 96 90 23 9a 8d 4d fc f3 b5 72 81 eb 52 78
+RIM-COD-SHA1-28: a6 59 3a 3d 26 d2 2a 13 fd 87 3f d3 df cf 5a a8 15 21 05 7d
+RIM-COD-SHA1-27: 52 41 d0 82 52 60 d6 25 25 51 58 ed ad 7c ec 19 d8 13 42 05
+RIM-COD-SHA1-26: c7 6a e2 d8 0e 40 88 23 8b 73 cb d5 96 eb 98 f7 81 9c 49 95
+RIM-COD-SHA1-25: a3 40 4f 04 5a 2b 01 39 28 60 2b fc f4 5f 0a f1 1f 8c bc 00
+RIM-COD-SHA1-24: 2f 64 22 29 ca 3a 6f a0 8b 04 87 18 02 95 54 b0 15 29 30 09
+RIM-COD-SHA1-23: 51 fc ef ad 0d 03 34 28 8e 67 35 1c 61 fa 74 0b b4 86 bf ac
+RIM-COD-SHA1-22: a0 40 29 8a 23 fc 86 c0 d1 18 98 75 17 26 20 2e 25 f3 19 e0
+RIM-COD-SHA1-21: 0f 2d 6f 23 f5 10 cd 7f ed b9 3e 1e 33 99 cd 28 65 3e 34 45
+RIM-COD-SHA1-20: 94 55 fe d5 55 a9 1f b6 34 32 61 e3 6a ad c7 43 e0 f4 e0 3f
+RIM-COD-Creation-Time: 1410220102
+RIM-COD-SHA1-19: 3f 80 f5 51 cd cd 85 b9 58 8a 9e d4 c6 54 af 39 77 38 1c 1a
+RIM-COD-SHA1-18: b7 ee 2e f0 9f fe e2 bf 67 84 42 c2 dd be 2b 2a 7f 49 5f 58
+RIM-COD-SHA1-17: d1 c9 f6 ed 78 ad f3 35 73 c0 62 1d d1 64 e1 84 22 bc 78 ef
+RIM-COD-SHA1-16: ec a7 e1 25 50 f8 c7 ba d0 c0 21 a9 8b e5 2d 07 26 55 97 91
+RIM-COD-SHA1-15: f3 38 f6 94 0a 2e 2b 54 fb 53 9c d6 dd 4f fa 60 bf 5f 29 37
+RIM-COD-SHA1-14: d4 38 2f 66 db 8f 44 44 94 ee 8d 58 02 4d b9 ed b4 81 49 5d
+RIM-COD-SHA1-13: 56 97 7d c1 d3 00 81 ec 1f 28 7c b8 14 cf 2a 6d eb 57 ca dd
+RIM-COD-SHA1-12: a6 d9 9b f0 fd 43 90 6f 28 c9 a1 4d 8b 4d a9 f3 73 0a d6 ab
+RIM-COD-SHA1-11: e2 0c ad 02 c3 bc 0f b5 e5 88 75 25 80 fc 6a 46 1c 8a 15 4c
+RIM-COD-SHA1-10: 03 45 38 9a bb 41 83 0a d9 6b ef 2b 58 77 fc b6 be 91 ff 9c
