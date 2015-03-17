@@ -56,18 +56,19 @@ public final class ATiempoScreen extends MainScreen
 	private VerticalFieldManager vManager;
 
 	// Statics -------------------------------------------------------------------------------------
-	//private static String http = "http://127.0.0.1/atiempo/genesis.xml";
-	private static String http2 = "http://127.0.0.1/atiempo/est.csv";	
-	//private static String http = "http://www.met.inf.cu/asp/genesis.asp?TB0=RSSFEED";
-	//private static String http2 = "http://www.met.inf.cu/pronostico/est.csv";	
+	//private static String http = "http://www.met.inf.cu/asp/genesis.asp?TB0=RSSFEED";//NO PUBLICAR (NO SE ESTA USANDO)
+	private static String http2 = "http://www.met.inf.cu/pronostico/est.csv"; //PUBLICAR SOLO ESTA
+	//private static String http = "http://127.0.0.1/atiempo/genesis.xml"; //NO TESTS (NO SE ESTA USANDO)
+	//private static String http2 = "http://127.0.0.1/pronostico/est.csv"; //TESTS SOLO ESTA	
+	
 	private static String []ciudadTitulo = new String[] {"CIENFUEGOS", "LA HABANA", "PINAR DEL RIO", "VARADERO", "CAYO COCO", "CAMAGÜEY", "HOLGUÍN", "SANTIAGO DE CUBA"};
 	private static String[] estaciones = new String[] {"78344", "78325","78315","78328","78339","78355","78372","78364"};
 	private static String []unidades = new String[] {"ºC","ºF"};
 	private static String []meses = new String[] {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"};
 	private static String appname = "ATiempo para BlackBerry ";
-	private static String version = "v1.0.36\n";
+	private static String version = "v1.0.37\n";
 	private static String email = "aaronkish@icloud.com\n";
-	private static String copyright = "Copyright Abel Espinosa, 2014";
+	private static String copyright = "Copyright Abel Espinosa, 2015";
 	private static String city;
 	private static String s;	
 	private static PersistentObject store;
@@ -121,11 +122,20 @@ public final class ATiempoScreen extends MainScreen
 		getMainManager().setBackground(BackgroundFactory.createSolidBackground(intValue));
 		vManager = new VerticalFieldManager(Manager.VERTICAL_SCROLL|Manager.VERTICAL_SCROLLBAR|Field.USE_ALL_WIDTH);
 		if (this.ioThread!=null) {
-			String recoveredResponseA = (String)this.ioThread.getResponse().elementAt(0);
-			String recoveredResponseB = (String)this.ioThread.getResponse().elementAt(1);
-			this.setResponseA(recoveredResponseA);
-			this.setResponseB(recoveredResponseB);
-			haveFun();
+			int count = this.ioThread.getResponse().capacity();
+			//Debe tener minimo 2 elementos, correspondientes a la descarga de los archivos de las 2 URL.
+			if(count>=2)
+			{
+				String recoveredResponseA = (String)this.ioThread.getResponse().elementAt(0);
+				String recoveredResponseB = (String)this.ioThread.getResponse().elementAt(1);
+				this.setResponseA(recoveredResponseA);
+				this.setResponseB(recoveredResponseB);
+				haveFun();
+			}
+			else
+			{
+				Dialog.alert("Respuesta incorrecta.\nRevise conexión y reinicie la app.");
+			}
 		}
 		else
 		{
@@ -1538,6 +1548,9 @@ public final class ATiempoScreen extends MainScreen
 			else if (estado.equalsIgnoreCase("Isolated storms")) {
 				icon = "icon_storm.png";
 			}
+			else if (estado.equalsIgnoreCase("Soleado")) {
+				icon = "icon_sunny_night.png";
+			}
 		}
 		else
 		{
@@ -1575,6 +1588,9 @@ public final class ATiempoScreen extends MainScreen
 			}
 			else if (estado.equalsIgnoreCase("Isolated storms")) {
 				icon = "icon_storm.png";
+			}
+			else if (estado.equalsIgnoreCase("Soleado")) {
+				icon = "icon_sunny.png";
 			}
 		}   	
 
@@ -1642,6 +1658,9 @@ public final class ATiempoScreen extends MainScreen
 			else if (estado.equalsIgnoreCase("Isolated storms")) {
 				icon = "mini_icon_thundershower.png";
 			}
+			else if (estado.equalsIgnoreCase("Soleado")) {
+				icon = "mini_icon_sunny_night.png";
+			}
 		}
 		else
 		{
@@ -1679,6 +1698,9 @@ public final class ATiempoScreen extends MainScreen
 			}
 			else if (estado.equalsIgnoreCase("Isolated storms")) {
 				icon = "mini_icon_thundershower.png";
+			}
+			else if (estado.equalsIgnoreCase("Soleado")) {
+				icon = "mini_icon_sunny.png";
 			}
 		}  	
 

@@ -41,13 +41,13 @@ public class CustomStrings {
 	}
 	
 	//Leer archivo de configuracion de red
-		public static CNXSettings readConfig(String CONFIGFILE)
+		public static CNXSettings readConfig(String CONFIGFOLDER,String CONFIGFILE)
 		{
 			InputStream is = null;
 			BufferedReader inputStream = null ;
 			CNXSettings config = new CNXSettings();
 			try {
-				FileConnection fconn = (FileConnection) Connector.open(CONFIGFILE, Connector.READ);            
+				FileConnection fconn = (FileConnection) Connector.open(CONFIGFOLDER+CONFIGFILE, Connector.READ);            
 				if (fconn.exists()) {
 					is = fconn.openInputStream();
 					inputStream = new BufferedReader(new InputStreamReader(is, "UTF-8"));
@@ -62,6 +62,8 @@ public class CustomStrings {
 					String tcpAPN = (String)data.elementAt(4);
 					String tcpUser = (String)data.elementAt(5);
 					String tcpPass = (String)data.elementAt(6);
+					String url1 = (String)data.elementAt(7);
+					String url2 = (String)data.elementAt(8);
 					config.setTries(Integer.parseInt(tries));
 					config.setUseGET((useGET.equalsIgnoreCase("true")?true:false));
 					config.setMethodPostSize(Integer.parseInt(methodPostSize));
@@ -69,6 +71,8 @@ public class CustomStrings {
 					config.setTcpAPN(tcpAPN);
 					config.setTcpUser(tcpUser);
 					config.setTcpPass(tcpPass);
+					config.setUrl1(url1);
+					config.setUrl2(url2);
 				} else {
 					return null; //file not available
 				}

@@ -35,10 +35,14 @@ public class InputScreen extends MainScreen {
 	 * Fields for entering url, port and number of allowed retries in case of a
 	 * failure
 	 */
-	private static String http = "http://127.0.0.1/atiempo/genesis.xml";
-	private static String http2 = "http://127.0.0.1/atiempo/est.csv";
+	private static String http = "http://www.met.inf.cu/asp/genesis.asp?TB0=RSSFEED";//PUBLICAR
+	private static String http2 = "http://www.met.inf.cu/pronostico/est.csv"; //PUBLICAR
+	//private static String http = "http://127.0.0.1/atiempo/genesis.xml"; //TESTS
+	//private static String http2 = "http://127.0.0.1/pronostico/est.csv"; //TESTS
+	
 	private final String []unidades = new String[] {"1","2","3","4","5","6","7","8","9","10"};
-	private static String CONFIGFILE = "file:///SDCard/net/config.ini";
+	private static String CONFIGFILE = "config.ini";
+	private static String CONFIGFOLDER = "file:///SDCard/net/";
 	private ObjectChoiceField efRetriesCombo;
 	private EditField efPostSize;
 	private int postSize;
@@ -62,14 +66,14 @@ public class InputScreen extends MainScreen {
 	public InputScreen() {
 		this.iscreen = this;
 		setTitle("ATiempo 2014");
-
+		
 		postSize = 1500;
 		cnxMethod = new RadioButtonGroup();
 		cnxTransports = new RadioButtonGroup();
 		bfGuardar = new CustomButtonField("Guardar", Field.USE_ALL_WIDTH | Field.FIELD_HCENTER,this.iscreen);
 		//LOAD SETTINGS
 		globalSettings = new CNXSettings();		
-		globalSettings = CustomStrings.readConfig(CONFIGFILE);
+		globalSettings = CustomStrings.readConfig(CONFIGFOLDER,CONFIGFILE);
 		int tries = 1;
 		boolean useGET = true;
 		postSize = 1500;
@@ -167,13 +171,21 @@ public class InputScreen extends MainScreen {
 
 
 	//Leer archivo de configuracion de red
-	public boolean writeConfig(String FILE){
+	public boolean writeConfig(String FOLDER, String FILE){
 		OutputStream out = null;
-		FileConnection fconn = null;
+		FileConnection fconn = null;	
+		FileConnection fconnFolder = null;
 		boolean exito = false;
 		try {
-			fconn = (FileConnection) Connector.open(FILE,Connector.READ_WRITE);
-			if (!fconn.exists()) {
+			fconn = (FileConnection) Connector.open(FOLDER+FILE,Connector.READ_WRITE);
+			fconnFolder = (FileConnection) Connector.open(FOLDER,Connector.READ_WRITE);
+			if(!fconnFolder.exists())
+			{
+				fconnFolder.mkdir();
+				fconn.create();
+			}
+			if (!fconn.exists()) 
+			{							
 				fconn.create();
 			}
 			else if (fconn.exists())
@@ -191,7 +203,7 @@ public class InputScreen extends MainScreen {
 			//ENCADENAR ESTOS DATOS
 			//(int tries, boolean useGET, int methodPostSize, boolean useTCP, String tcpAPN, String tcpUser,String tcpPass, String url1, String url2)
 			String keys = globalSettings.getTries()+"|"+globalSettings.isUseGET()+"|"+globalSettings.getMethodPostSize()
-					+"|"+globalSettings.isUseTCP()+"|"+globalSettings.getTcpAPN()+"|"+globalSettings.getTcpUser()+"|"+globalSettings.getTcpPass()+"|";
+					+"|"+globalSettings.isUseTCP()+"|"+globalSettings.getTcpAPN()+"|"+globalSettings.getTcpUser()+"|"+globalSettings.getTcpPass()+"|"+globalSettings.getUrl1()+"|"+globalSettings.getUrl2()+"|";
 			out.write(keys.getBytes());	
 			//SINO CERRAR APP O DAR ERROR
 		}
@@ -248,7 +260,7 @@ public class InputScreen extends MainScreen {
 				boolean tcp = isDoTcp();
 				CNXSettings settings = new CNXSettings(retry, get, size, tcp , efTcpApn.getText(), efTcpApnUser.getText(), efTcpApnPassword.getText(), http, http2);
 				globalSettings = settings;
-				boolean escrito = writeConfig(CONFIGFILE);
+				boolean escrito = writeConfig(CONFIGFOLDER,CONFIGFILE);
 				if (!escrito) {
 					Dialog.alert("Debe poner una SD o corregir su sistema de archivos interno.");
 				}

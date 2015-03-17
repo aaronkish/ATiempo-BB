@@ -26,9 +26,12 @@ import net.rim.device.api.ui.decor.BackgroundFactory;
 public class ATiempoLoading extends MainScreen {
 	private UiApplication application;
 	private Timer timer = new Timer();
-	private static String CONFIGFILE = "file:///SDCard/net/config.ini";
-	private static String http = "http://127.0.0.1/atiempo/genesis.xml";
-	private static String http2 = "http://127.0.0.1/atiempo/est.csv";
+	private static String CONFIGFILE = "config.ini";
+	private static String CONFIGFOLDER = "file:///SDCard/net/";
+	private static String http = "http://www.met.inf.cu/asp/genesis.asp?TB0=RSSFEED";//PUBLICAR
+	private static String http2 = "http://www.met.inf.cu/pronostico/est.csv"; //PUBLICAR
+	//private static String http = "http://127.0.0.1/atiempo/genesis.xml"; //TESTS
+	//private static String http2 = "http://127.0.0.1/pronostico/est.csv"; //TESTS
 	private CNXSettings globalSettings;
 	private IOThread cnxThread;
 
@@ -62,8 +65,8 @@ public class ATiempoLoading extends MainScreen {
 		{
 			protected boolean navigationClick(int status, int time) 
 			{
-				CNXSettings leido = CustomStrings.readConfig(CONFIGFILE);
-				if (leido!=null) {
+				CNXSettings leido = CustomStrings.readConfig(CONFIGFOLDER,CONFIGFILE);
+				if (leido!=null && leido.getUrl1()!=null && leido.getUrl2()!=null) {
 					globalSettings = leido;	
 					globalSettings.setUrl1(http);
 					globalSettings.setUrl2(http2);
@@ -95,8 +98,8 @@ public class ATiempoLoading extends MainScreen {
 	public void dismiss() {
 		timer.cancel();
 		application.popScreen(this);
-		CNXSettings leido = CustomStrings.readConfig(CONFIGFILE);
-		if (leido!=null) {
+		CNXSettings leido = CustomStrings.readConfig(CONFIGFOLDER,CONFIGFILE);
+		if (leido!=null && leido.getUrl1()!=null && leido.getUrl2()!=null) {
 			globalSettings = leido;	
 			globalSettings.setUrl1(http);
 			globalSettings.setUrl2(http2);
